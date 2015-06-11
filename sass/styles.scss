@@ -1,0 +1,91 @@
+/**
+* Project Name		: SreySros
+* Date				: 08-June-2015
+* Developer			: Euk Thona
+* Developer URL		: http://glean.net
+*/
+
+
+@import "bootstrap-compass";
+@import "bootstrap-variables";
+@import "bootstrap";
+
+
+
+.container {
+	padding: 0 15px;
+}
+.row {
+	margin: 0;
+}
+.nacvbar {
+	background-color: #422e37;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	top: 0;
+}
+.navbar-toggle {
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  padding: 9px 10px;
+  margin-top: 23px;
+  margin-bottom: 20px;
+  background-color: #422e37;
+  background-image: none;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.icon-bar {
+  background-color: #fff;
+  width: 27px;
+  height: 4px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+.navbar-brand-logo {
+	background: url(../images/homepage.png) no-repeat;
+	background-size: 46px 46px;
+	display: block;
+	text-decoration: none;
+	float: left;
+	text-indent: -9999px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	width: 46px;
+	padding-bottom: 30px;
+}
+.language {
+	margin-top: 100px;
+	text-align: right;
+	padding: 0 15px 10px 15px;
+	width: 100%;
+	float: none;
+}
+.lang-en, .lang-kh {
+	display: inline-block;
+	color: #b3b3b3;
+}
+.webOnly {
+	display: none;
+}
+.makeup {
+	background: url(../images/makeup.jpg) no-repeat;
+	background-size: cover;
+	padding: 100px 15px;
+	margin-top: -15px;
+	text-align: center;
+}
