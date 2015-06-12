@@ -11,19 +11,24 @@
 @import "bootstrap";
 
 
-
 .container {
 	padding: 0 15px;
 }
 .row {
 	margin: 0;
 }
-.nacvbar {
-	background-color: #422e37;
-	position: fixed;
-	width: 100%;
-	z-index: 1;
-	top: 0;
+.navbar-header, .navbar-collapse {
+	background-color: #7500b2;
+}
+nav {
+	list-style: none;
+}
+.navbar-default .navbar-form {
+	border-color: #7500b2;
+	box-shadow: none;
+}
+.navbar-default .navbar-collapse {
+	border-color: #7500b2;
 }
 .navbar-toggle {
   position: relative;

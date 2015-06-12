@@ -7048,23 +7048,32 @@ button.close {
   /* line 18, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.3/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-print {
     display: none !important; } }
-/* line 15, ../sass/styles.scss */
+/* line 14, ../sass/styles.scss */
 .container {
   padding: 0 15px; }
 
-/* line 18, ../sass/styles.scss */
+/* line 17, ../sass/styles.scss */
 .row {
   margin: 0; }
 
-/* line 21, ../sass/styles.scss */
-.nacvbar {
-  background-color: #422e37;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-  top: 0; }
+/* line 20, ../sass/styles.scss */
+.navbar-header, .navbar-collapse {
+  background-color: #7500b2; }
 
-/* line 28, ../sass/styles.scss */
+/* line 23, ../sass/styles.scss */
+nav {
+  list-style: none; }
+
+/* line 26, ../sass/styles.scss */
+.navbar-default .navbar-form {
+  border-color: #7500b2;
+  box-shadow: none; }
+
+/* line 30, ../sass/styles.scss */
+.navbar-default .navbar-collapse {
+  border-color: #7500b2; }
+
+/* line 33, ../sass/styles.scss */
 .navbar-toggle {
   position: relative;
   float: right;
@@ -7077,7 +7086,7 @@ button.close {
   border: 1px solid #fff;
   border-radius: 4px; }
 
-/* line 40, ../sass/styles.scss */
+/* line 45, ../sass/styles.scss */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -7088,7 +7097,7 @@ button.close {
   clip: rect(0, 0, 0, 0);
   border: 0; }
 
-/* line 50, ../sass/styles.scss */
+/* line 55, ../sass/styles.scss */
 .icon-bar {
   background-color: #fff;
   width: 27px;
@@ -7097,7 +7106,7 @@ button.close {
   -webkit-border-radius: 2px;
   border-radius: 2px; }
 
-/* line 58, ../sass/styles.scss */
+/* line 63, ../sass/styles.scss */
 .navbar-brand-logo {
   background: url(../images/homepage.png) no-repeat;
   background-size: 46px 46px;
@@ -7111,7 +7120,7 @@ button.close {
   width: 46px;
   padding-bottom: 30px; }
 
-/* line 71, ../sass/styles.scss */
+/* line 76, ../sass/styles.scss */
 .language {
   margin-top: 100px;
   text-align: right;
@@ -7119,51 +7128,51 @@ button.close {
   width: 100%;
   float: none; }
 
-/* line 78, ../sass/styles.scss */
+/* line 83, ../sass/styles.scss */
 .lang-en, .lang-kh {
   display: inline-block;
   color: #b3b3b3; }
 
-/* line 82, ../sass/styles.scss */
+/* line 87, ../sass/styles.scss */
 .webOnly {
   display: none; }
 
-/* line 85, ../sass/styles.scss */
+/* line 90, ../sass/styles.scss */
 .makeup {
   background: url(../images/makeup.jpg) no-repeat;
   background-size: cover;
   padding: 60px 15px;
   text-align: center; }
 
-/* line 91, ../sass/styles.scss */
+/* line 96, ../sass/styles.scss */
 .model {
   background: url(../images/Untitled-3.png) no-repeat;
   background-size: cover;
   padding: 60px 15px;
   text-align: center; }
 
-/* line 97, ../sass/styles.scss */
+/* line 102, ../sass/styles.scss */
 .health {
   background: url(../images/Untitled-4.png) no-repeat;
   background-size: cover;
   padding: 60px 15px;
   text-align: center; }
 
-/* line 103, ../sass/styles.scss */
+/* line 108, ../sass/styles.scss */
 .exercise {
   background: url(../images/homepage.jpg) no-repeat;
   background-size: cover;
   padding: 60px 15px;
   text-align: center; }
 
-/* line 109, ../sass/styles.scss */
+/* line 114, ../sass/styles.scss */
 .model-1 {
   background: url(../images/homepage-11.jpg) no-repeat;
   background-size: cover;
   padding: 60px 15px;
   text-align: center; }
 
-/* line 115, ../sass/styles.scss */
+/* line 120, ../sass/styles.scss */
 .health-1 {
   background: url(../images/homepages.jpg) no-repeat;
   background-size: cover;

@@ -5,19 +5,19 @@
  */
  
 $( function() {
-	var smartgirl = {
+	var sreysros = {
 		init: function() {
-			this.toggleMenu();
+			//this.toggleMenu();
 		},
 		
 		toggleMenu: function() {
-			$('nav .navbar-header').click( function() {
-				$('nav ul').slideToggle( 200 );
+			$('.navbar-toggle').click( function() {
+				$('.collapse').slideToggle( 200 );
 			});
 		}
 	}
 	
 	$( document ).ready( function() {
-		smartgirl.init();
+		sreysros.init();
 	});
 });
