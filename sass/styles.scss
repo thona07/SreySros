@@ -185,4 +185,54 @@ ul.links li span {
 	padding-top: 0;
 	padding-right: 15px;
 }
-
+.sponsors li a{
+	text-indent: -9999px;
+	display: block;
+}
+.pepfar, .usaid, .flagship {
+	display: inline-block;
+}
+.sponsors {
+	text-align: center;
+	padding-left: 0;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	margin: 0;
+}
+.pepfar a {
+  background: url(../images/pep.jpg) no-repeat 0 0;
+  background-size: 52px 52px;
+  width: 52px;
+  height: 52px;
+}
+.usaid a {
+  background: url(../images/usa.jpg) no-repeat 0 0;
+  background-size: 58px 52px;
+  width: 58px;
+  height: 52px;
+}
+.flagship a {
+  background: url(../images/flag.jpg) no-repeat 0 0;
+  background-size: 58px 52px;
+  width: 58px;
+  height: 52px;
+}
+.footer {
+	background: #7500b2;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.footer p {
+	float: right;
+	display: block;
+	padding-top: 25px;
+	padding-right: 10px;
+	font-size: 0.7em;
+	margin: 0;
+}
+.footer img {
+	width: 10%;
+	float: right;
+	padding-top: 23px;
+	margin-right: 60px;
+}
