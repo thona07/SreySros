@@ -10,7 +10,24 @@
 @import "bootstrap-variables";
 @import "bootstrap";
 
-
+.container:nth-child( 5 ) {
+	display: none;
+}
+h1 {
+	font-size: 2em;
+	color: #fff;
+	padding-top: 30px;
+	margin: 0;
+}
+p {
+	color: #fff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0;
+	font-size: 1.3em;
+}
 .container {
 	padding: 0 15px;
 }
@@ -107,7 +124,6 @@ nav {
 .health {
 	background: url(../images/Untitled-4.png) no-repeat;
 	background-size: cover;
-	padding: 60px 15px;
 	text-align: center;
 	margin-bottom: 30px;
 }
@@ -130,7 +146,43 @@ nav {
 	background-size: cover;
 	padding: 60px 15px;
 	text-align: center;
+}
+.btn-default {
+	background-color: #7500b2;
+	color: #fff;
+	border-color: #fff;
 	margin-bottom: 30px;
 }
-
+.links {
+	padding: 0;
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+.links:nth-child( 2 ) {
+	margin-top: 0;
+}
+.links:nth-child( 2 ) li:nth-child( 1 ){
+	border-top: none;
+}
+ul.links li:first-child {
+	border-top: 4px solid #7500b2;
+}
+ul.links li {
+	display: table;
+	padding: 10px 0;
+	list-style: none;
+	border-bottom: 4px solid #7500b2;
+	width: 100%;
+}
+ul.links li a{
+	color: #252525;
+	padding-left: 15px;
+}
+ul.links li span {
+	color: #7500b2;
+	position: relative;
+	float: right;
+	padding-top: 0;
+	padding-right: 15px;
+}
 
