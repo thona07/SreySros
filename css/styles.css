@@ -7065,15 +7065,23 @@ nav {
   list-style: none; }
 
 /* line 26, ../sass/styles.scss */
+.navbar-nav {
+  margin: 0; }
+
+/* line 29, ../sass/styles.scss */
+.pull-right {
+  float: none !important; }
+
+/* line 32, ../sass/styles.scss */
 .navbar-default .navbar-form {
   border-color: #7500b2;
   box-shadow: none; }
 
-/* line 30, ../sass/styles.scss */
+/* line 36, ../sass/styles.scss */
 .navbar-default .navbar-collapse {
   border-color: #7500b2; }
 
-/* line 33, ../sass/styles.scss */
+/* line 39, ../sass/styles.scss */
 .navbar-toggle {
   position: relative;
   float: right;
@@ -7086,7 +7094,7 @@ nav {
   border: 1px solid #fff;
   border-radius: 4px; }
 
-/* line 45, ../sass/styles.scss */
+/* line 51, ../sass/styles.scss */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -7097,16 +7105,7 @@ nav {
   clip: rect(0, 0, 0, 0);
   border: 0; }
 
-/* line 55, ../sass/styles.scss */
-.icon-bar {
-  background-color: #fff;
-  width: 27px;
-  height: 4px;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  border-radius: 2px; }
-
-/* line 63, ../sass/styles.scss */
+/* line 62, ../sass/styles.scss */
 .navbar-brand-logo {
   background: url(../images/homepage.png) no-repeat;
   background-size: 46px 46px;
@@ -7120,7 +7119,7 @@ nav {
   width: 46px;
   padding-bottom: 30px; }
 
-/* line 76, ../sass/styles.scss */
+/* line 75, ../sass/styles.scss */
 .language {
   margin-top: 100px;
   text-align: right;
@@ -7128,51 +7127,51 @@ nav {
   width: 100%;
   float: none; }
 
-/* line 83, ../sass/styles.scss */
+/* line 82, ../sass/styles.scss */
 .lang-en, .lang-kh {
   display: inline-block;
   color: #b3b3b3; }
 
-/* line 87, ../sass/styles.scss */
+/* line 86, ../sass/styles.scss */
 .webOnly {
   display: none; }
 
-/* line 90, ../sass/styles.scss */
+/* line 89, ../sass/styles.scss */
 .makeup {
   background: url(../images/makeup.jpg) no-repeat;
   background-size: cover;
   padding: 60px 15px;
   text-align: center; }
 
-/* line 96, ../sass/styles.scss */
+/* line 95, ../sass/styles.scss */
 .model {
   background: url(../images/Untitled-3.png) no-repeat;
   background-size: cover;
   padding: 60px 15px;
   text-align: center; }
 
-/* line 102, ../sass/styles.scss */
+/* line 101, ../sass/styles.scss */
 .health {
   background: url(../images/Untitled-4.png) no-repeat;
   background-size: cover;
   padding: 60px 15px;
   text-align: center; }
 
-/* line 108, ../sass/styles.scss */
+/* line 107, ../sass/styles.scss */
 .exercise {
   background: url(../images/homepage.jpg) no-repeat;
   background-size: cover;
   padding: 60px 15px;
   text-align: center; }
 
-/* line 114, ../sass/styles.scss */
+/* line 113, ../sass/styles.scss */
 .model-1 {
   background: url(../images/homepage-11.jpg) no-repeat;
   background-size: cover;
   padding: 60px 15px;
   text-align: center; }
 
-/* line 120, ../sass/styles.scss */
+/* line 119, ../sass/styles.scss */
 .health-1 {
   background: url(../images/homepages.jpg) no-repeat;
   background-size: cover;

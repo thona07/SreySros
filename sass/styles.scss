@@ -23,6 +23,12 @@
 nav {
 	list-style: none;
 }
+.navbar-nav {
+	margin: 0;
+}
+.pull-right {
+	float:none !important;
+}
 .navbar-default .navbar-form {
 	border-color: #7500b2;
 	box-shadow: none;
@@ -52,14 +58,7 @@ nav {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-.icon-bar {
-  background-color: #fff;
-  width: 27px;
-  height: 4px;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
-}
+
 .navbar-brand-logo {
 	background: url(../images/homepage.png) no-repeat;
 	background-size: 46px 46px;
