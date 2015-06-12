@@ -58,7 +58,11 @@ nav {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
 .navbar-brand-logo {
 	background: url(../images/homepage.png) no-repeat;
 	background-size: 46px 46px;
@@ -91,36 +95,42 @@ nav {
 	background-size: cover;
 	padding: 60px 15px;
 	text-align: center;
+	margin-bottom: 30px;
 }
 .model {
 	background: url(../images/Untitled-3.png) no-repeat;
 	background-size: cover;
 	padding: 60px 15px;
 	text-align: center;
+	margin-bottom: 30px;
 }
 .health {
 	background: url(../images/Untitled-4.png) no-repeat;
 	background-size: cover;
 	padding: 60px 15px;
 	text-align: center;
+	margin-bottom: 30px;
 }
 .exercise {
 	background: url(../images/homepage.jpg) no-repeat;
 	background-size: cover;
 	padding: 60px 15px;
 	text-align: center;
+	margin-bottom: 30px;
 }
 .model-1 {
 	background: url(../images/homepage-11.jpg) no-repeat;
 	background-size: cover;
 	padding: 60px 15px;
 	text-align: center;
+	margin-bottom: 30px;
 }
 .health-1 {
 	background: url(../images/homepages.jpg) no-repeat;
 	background-size: cover;
 	padding: 60px 15px;
 	text-align: center;
+	margin-bottom: 30px;
 }
 
 
