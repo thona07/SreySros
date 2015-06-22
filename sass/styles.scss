@@ -54,16 +54,8 @@ nav {
 	border-color: #7500b2;
 }
 .navbar-toggle {
-  position: relative;
-  float: right;
-  margin-right: 15px;
-  padding: 9px 10px;
-  margin-top: 23px;
-  margin-bottom: 20px;
-  background-color: #422e37;
-  background-image: none;
-  border: 1px solid #fff;
-  border-radius: 4px;
+  margin-top: 22px;
+  border: 2px solid #fff;
 }
 .sr-only {
   position: absolute;
@@ -235,4 +227,15 @@ ul.links li span {
 	float: right;
 	padding-top: 23px;
 	margin-right: 60px;
+}
+
+@media ( min-width: 768px ) {
+	
+.navbar-toggle {
+	display: block;
+}
+.navbar-header {
+	float: right;
+	width: 100%;
+}
 }
