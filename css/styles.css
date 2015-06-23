@@ -7315,4 +7315,16 @@ ul.links li span {
   /* line 237, ../sass/styles.scss */
   .navbar-header {
     float: right;
-    width: 100%; } }
+    width: 100%; }
+
+  /* line 241, ../sass/styles.scss */
+  .collapse {
+    display: none; }
+
+  /* line 244, ../sass/styles.scss */
+  .navbar-nav > li {
+    width: 100%; }
+
+  /* line 247, ../sass/styles.scss */
+  .navbar-collapse.collapse {
+    display: none !important; } }
