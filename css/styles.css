@@ -7319,12 +7319,8 @@ ul.links li span {
 
   /* line 241, ../sass/styles.scss */
   .collapse {
-    display: none; }
+    display: none !important; }
 
   /* line 244, ../sass/styles.scss */
   .navbar-nav > li {
-    width: 100%; }
-
-  /* line 247, ../sass/styles.scss */
-  .navbar-collapse.collapse {
-    display: none !important; } }
+    width: 100%; } }
