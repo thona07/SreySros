@@ -7318,9 +7318,9 @@ ul.links li span {
     width: 100%; }
 
   /* line 241, ../sass/styles.scss */
-  .collapse {
-    display: none !important; }
+  .navbar-nav > li {
+    width: 100%; }
 
   /* line 244, ../sass/styles.scss */
-  .navbar-nav > li {
-    width: 100%; } }
+  .navbar-collapse.collapse {
+    display: none !important; } }

@@ -238,10 +238,10 @@ ul.links li span {
 	float: right;
 	width: 100%;
 }
-.collapse {
-	display: none !important;
-}
 .navbar-nav > li {
 	width: 100%;
+}
+.navbar-collapse.collapse {
+	display: none !important;
 }
 }
