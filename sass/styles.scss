@@ -28,6 +28,9 @@ p {
 	margin: 0;
 	font-size: 1.3em;
 }
+p , span , a {
+	font-family: Khmer OS Battambang;
+}
 .container {
 	padding: 0 15px;
 }
@@ -44,7 +47,7 @@ nav {
 	margin: 0;
 }
 .pull-right {
-	float:none !important;
+	float: none !important;
 }
 .navbar-default .navbar-form {
 	border-color: #7500b2;
@@ -240,8 +243,5 @@ ul.links li span {
 }
 .navbar-nav > li {
 	width: 100%;
-}
-.navbar-collapse.collapse {
-	display: none !important;
 }
 }
